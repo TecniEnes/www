@@ -1,5 +1,8 @@
 # Proyecto Tecni Enes 
-Humberto Medina Verduzco Pablo Adolfo Mijangos Pimienta 
+Humberto Medina Verduzco 
+
+Pablo Adolfo Mijangos Pimienta 
+
 Ortega Mendoza Roman Yair
 
 # Zona-Segura-
