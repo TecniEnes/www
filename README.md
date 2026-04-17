@@ -1,7 +1,8 @@
 # Proyecto Tecni Enes 
 Humberto Medina Verduzco Pablo Adolfo Mijangos Pimienta 
 Ortega Mendoza Roman Yair
-Zona-Segura-
+
+# Zona-Segura-
 El objetivo principal del proyecto es poder segmentar México en base a la base de datos Homicidios dolosos registrados en México por Entidad.
 
 """
