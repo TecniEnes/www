@@ -27,7 +27,7 @@ DEBUG = True
 
 #PUBLIC_IP
 
-ALLOWED_HOSTS = ['3.128.21.79', '172.31.35.30', 'localhost']
+ALLOWED_HOSTS = ['3.210.28.15', '127.0.0.1', 'localhost']
 
 
 # Application definition

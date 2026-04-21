@@ -1,20 +1,21 @@
-# Proyecto Tecni Enes 
+
+# Proyecto ZONA SEGURA. Tecni Enes 
 Humberto Medina Verduzco 
 
 Pablo Adolfo Mijangos Pimienta 
 
 Ortega Mendoza Roman Yair
 
-# Zona-Segura-
-El objetivo principal del proyecto es poder segmentar México en base a la base de datos Homicidios dolosos registrados en México por Entidad.
+# Zona-Segura (Primera Prueba)
+El objetivo principal del proyecto es poder segmentar el Estado de Michoacán por regiones, municipios y colonias con relación a la tasa de  Homicidios dolosos. Para posteriormente desplegar un análisis sobre las regiones con mayor indice de violencia y representarlo en un Mapa Coroplético ( "Mapa de Calor" por Regiones). 
 
 ## ¿Qué hace?
 
-La aplicación descarga el dataset del INEGI (1,155 registros, 32 entidades, 34 años) y genera dos consultas:
+El codigo actualemente descarga el dataset "Homicidios dolosos registrados en México por Entidad (1990-2024)" que cuenta con  (1,155 registros, 32 entidades, 34 años). El dataSet es un resumen de "Estadísticas de Defunciones Registradas (EDR)" especificamente por homicidios(Hombres/Muejeres) por parte del INEGI. (2024) 
 
 - **Estudio de violencia en las entidades** con la tasa de homicidios más alta por cada año
 
-Los resultados se presentan en tablas directamente en el navegador.
+Los resultados se presentan en tablas directamente en el navegador. Se muestra el top 5 por año.
 
 ---
 
@@ -36,16 +37,17 @@ Los resultados se presentan en tablas directamente en el navegador.
 |------------|------------|
 | Backend | Django 4.2 / Python 3 |
 | Procesamiento de datos | pandas |
-| Infraestructura | AWS EC2 con IP elástica |
+| Infraestructura | AWS EC2 |
 | Control de versiones | Git / GitHub |
 
 ---
 
 ## Acceso
+Comando para correr servidor: python3 manage.py runserver 0.0.0.0:6285
 
 ```
 https://datamx.io/dataset/homicidios-dolosos-registrados-en-mexico-por-entidad-1990-2023
-http://3.128.21.79:6285/polls/
+http://3.210.28.15:6285/polls/
 http://100.26.61.153:6285/polls/
 ```
 
